@@ -1,0 +1,23 @@
+# Compiled binary (built by: go build -o familiar ./cmd/familiar/)
+/familiar
+
+# Go build cache
+*.test
+*.out
+coverage.html
+
+# macOS
+.DS_Store
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.local
+
+# Go module download cache (checked in via go.sum instead)
+vendor/
